@@ -497,7 +497,7 @@
   )
 
   (module Diode_SMD:D_MELF (layer F.Cu) (tedit 5905D864) (tstamp 5E780A6A)
-    (at 159.6 124.4 180)
+    (at 160.2 124.1 180)
     (descr "Diode, MELF,,")
     (tags "Diode MELF ")
     (path /5E5BC499/5E7AE53E)
