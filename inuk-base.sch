@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 5
 Title ""
 Date ""
 Rev ""
@@ -91,4 +91,10 @@ F 3 "~" H 9550 1000 50  0001 C CNN
 	1    9550 1000
 	1    0    0    -1  
 $EndComp
+$Sheet
+S 6850 2350 900  750 
+U 5E8399F7
+F0 "light_ctrl" 50
+F1 "light_ctrl.sch" 50
+$EndSheet
 $EndSCHEMATC
