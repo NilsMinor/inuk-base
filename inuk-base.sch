@@ -14,39 +14,39 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 2750 1750 1150 1400
+S 3750 2700 1150 1400
 U 5E59E010
 F0 "cpu" 50
 F1 "cpu.sch" 50
-F2 "uart_tx" O R 3900 1850 50 
-F3 "uart_cts" I R 3900 2150 50 
-F4 "uart_rts" O R 3900 2050 50 
-F5 "uart_rx" I R 3900 1950 50 
+F2 "uart_tx" O R 4900 2800 50 
+F3 "uart_cts" I R 4900 3100 50 
+F4 "uart_rts" O R 4900 3000 50 
+F5 "uart_rx" I R 4900 2900 50 
 $EndSheet
 $Sheet
-S 4400 1750 700  500 
+S 5400 2700 700  500 
 U 5E5A7255
 F0 "uart" 50
 F1 "uart.sch" 50
-F2 "uart_tx" I L 4400 1850 50 
-F3 "uart_cts" O L 4400 2150 50 
-F4 "uart_rts" I L 4400 2050 50 
-F5 "uart_rx" O L 4400 1950 50 
+F2 "uart_tx" I L 5400 2800 50 
+F3 "uart_cts" O L 5400 3100 50 
+F4 "uart_rts" I L 5400 3000 50 
+F5 "uart_rx" O L 5400 2900 50 
 $EndSheet
 $Sheet
-S 5450 3350 900  750 
+S 5800 4300 900  750 
 U 5E5BC499
 F0 "power" 50
 F1 "power.sch" 50
 $EndSheet
 Wire Wire Line
-	4400 1850 3900 1850
+	5400 2800 4900 2800
 Wire Wire Line
-	3900 1950 4400 1950
+	4900 2900 5400 2900
 Wire Wire Line
-	3900 2050 4400 2050
+	4900 3000 5400 3000
 Wire Wire Line
-	3900 2150 4400 2150
+	4900 3100 5400 3100
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 5E7D5F82
@@ -92,7 +92,7 @@ F 3 "~" H 9550 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 6850 2350 900  750 
+S 7300 3300 900  750 
 U 5E8399F7
 F0 "light_ctrl" 50
 F1 "light_ctrl.sch" 50

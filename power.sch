@@ -6876,15 +6876,6 @@ Wire Wire Line
 Connection ~ 2300 5000
 Wire Wire Line
 	2300 5000 2050 5000
-$Comp
-L Switch:SW_DPST_x2 SW1
-U 1 1 5E84363D
-P 5200 5800
-F 0 "SW1" H 5200 6035 50  0000 C CNN
-F 1 "SW_DPST_x2" H 5200 5944 50  0000 C CNN
-F 2 "Button_Switch_SMD:Panasonic_EVQPUL_EVQPUC" H 5200 5800 50  0001 C CNN
-F 3 "~" H 5200 5800 50  0001 C CNN
-	1    5200 5800
-	1    0    0    -1  
-$EndComp
+Text Notes 4450 4700 0    50   ~ 10
+Place switch to enable/disable\n
 $EndSCHEMATC
