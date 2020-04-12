@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 5
+Sheet 4 6
 Title ""
 Date ""
 Rev ""
@@ -40,19 +40,19 @@ F 3 "~" H 3300 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 1100 2200 0    50   Input ~ 0
-lio_2
+lio2
 Text HLabel 1100 2300 0    50   Input ~ 0
-lio_3
+lio3
 Text HLabel 1100 2400 0    50   Input ~ 0
-lio_4
+lio4
 Text HLabel 1100 2500 0    50   Input ~ 0
-lio_5
+lio5
 Text Notes 850  1350 0    50   ~ 0
 5 x lio (light-io) from mcu to control external power leds via pwm
 Text Notes 850  1200 0    50   ~ 10
 Note:
 Text HLabel 1100 2100 0    50   Input ~ 0
-lio_1
+lio1
 Wire Wire Line
 	1450 2100 1100 2100
 Wire Wire Line

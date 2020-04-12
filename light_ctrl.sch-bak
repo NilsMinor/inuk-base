@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 5
+Sheet 4 6
 Title ""
 Date ""
 Rev ""
@@ -40,19 +40,19 @@ F 3 "~" H 3300 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 1100 2200 0    50   Input ~ 0
-lio_2
+lio2
 Text HLabel 1100 2300 0    50   Input ~ 0
-lio_3
+lio3
 Text HLabel 1100 2400 0    50   Input ~ 0
-lio_4
+lio4
 Text HLabel 1100 2500 0    50   Input ~ 0
-lio_5
+lio5
 Text Notes 850  1350 0    50   ~ 0
 5 x lio (light-io) from mcu to control external power leds via pwm
 Text Notes 850  1200 0    50   ~ 10
 Note:
 Text HLabel 1100 2100 0    50   Input ~ 0
-lio_1
+lio1
 Wire Wire Line
 	1450 2100 1100 2100
 Wire Wire Line
@@ -622,8 +622,8 @@ L Device:C C?
 U 1 1 5E885D81
 P 4950 1350
 AR Path="/5E5BC499/5E885D81" Ref="C?"  Part="1" 
-AR Path="/5E8399F7/5E885D81" Ref="C?"  Part="1" 
-F 0 "C?" V 5050 1450 50  0000 L CNN
+AR Path="/5E8399F7/5E885D81" Ref="C5"  Part="1" 
+F 0 "C5" V 5050 1450 50  0000 L CNN
 F 1 "100nF" V 5050 1050 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4988 1200 50  0001 C CNN
 F 3 "~" H 4950 1350 50  0001 C CNN
@@ -631,10 +631,10 @@ F 3 "~" H 4950 1350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0124
 U 1 1 5E8880D8
 P 5200 1350
-F 0 "#PWR?" H 5200 1100 50  0001 C CNN
+F 0 "#PWR0124" H 5200 1100 50  0001 C CNN
 F 1 "GND" H 5205 1177 50  0000 C CNN
 F 2 "" H 5200 1350 50  0001 C CNN
 F 3 "" H 5200 1350 50  0001 C CNN

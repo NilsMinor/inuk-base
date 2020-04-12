@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title ""
 Date ""
 Rev ""
@@ -14,39 +14,31 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 3750 2700 1150 1400
-U 5E59E010
-F0 "cpu" 50
-F1 "cpu.sch" 50
-F2 "uart_tx" O R 4900 2800 50 
-F3 "uart_cts" I R 4900 3100 50 
-F4 "uart_rts" O R 4900 3000 50 
-F5 "uart_rx" I R 4900 2900 50 
-$EndSheet
-$Sheet
-S 5400 2700 700  500 
+S 6900 2200 900  500 
 U 5E5A7255
 F0 "uart" 50
 F1 "uart.sch" 50
-F2 "uart_tx" I L 5400 2800 50 
-F3 "uart_cts" O L 5400 3100 50 
-F4 "uart_rts" I L 5400 3000 50 
-F5 "uart_rx" O L 5400 2900 50 
+F2 "uart_tx" I L 6900 2300 50 
+F3 "uart_cts" O L 6900 2600 50 
+F4 "uart_rts" I L 6900 2500 50 
+F5 "uart_rx" O L 6900 2400 50 
 $EndSheet
 $Sheet
-S 5800 4300 900  750 
+S 3900 2200 900  750 
 U 5E5BC499
 F0 "power" 50
 F1 "power.sch" 50
+F2 "VBAT_ADC" O R 4800 2300 50 
+F3 "VSOLAR_ADC" O R 4800 2400 50 
 $EndSheet
 Wire Wire Line
-	5400 2800 4900 2800
+	6900 2300 6400 2300
 Wire Wire Line
-	4900 2900 5400 2900
+	6400 2400 6900 2400
 Wire Wire Line
-	4900 3000 5400 3000
+	6400 2500 6900 2500
 Wire Wire Line
-	4900 3100 5400 3100
+	6400 2600 6900 2600
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 5E7D5F82
@@ -92,9 +84,67 @@ F 3 "~" H 9550 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 7300 3300 900  750 
+S 6900 3000 900  750 
 U 5E8399F7
 F0 "light_ctrl" 50
 F1 "light_ctrl.sch" 50
+F2 "lio2" I L 6900 3200 50 
+F3 "lio3" I L 6900 3300 50 
+F4 "lio4" I L 6900 3400 50 
+F5 "lio5" I L 6900 3500 50 
+F6 "lio1" I L 6900 3100 50 
+F7 "sense" O L 6900 3600 50 
 $EndSheet
+Wire Wire Line
+	4800 2300 5250 2300
+Wire Wire Line
+	4800 2400 5250 2400
+Wire Wire Line
+	6900 3600 6400 3600
+$Sheet
+S 5250 2200 1150 2500
+U 5E59E010
+F0 "cpu" 50
+F1 "cpu.sch" 50
+F2 "uart_tx" O R 6400 2300 50 
+F3 "uart_cts" I R 6400 2600 50 
+F4 "uart_rts" O R 6400 2500 50 
+F5 "uart_rx" I R 6400 2400 50 
+F6 "ain0" I L 5250 2300 50 
+F7 "ain1" I L 5250 2400 50 
+F8 "ain2" I R 6400 3600 50 
+F9 "ain3" I R 6400 4350 50 
+F10 "ain4" I L 5250 4150 50 
+F11 "ain5" I L 5250 4250 50 
+F12 "ain6" I L 5250 4350 50 
+F13 "ain7" I L 5250 4450 50 
+F14 "lio1" O R 6400 3100 50 
+F15 "lio2" O R 6400 3200 50 
+F16 "lio3" O R 6400 3300 50 
+F17 "lio4" O R 6400 3400 50 
+F18 "lio5" O R 6400 3500 50 
+F19 "pir_input" I R 6400 4250 50 
+$EndSheet
+Wire Wire Line
+	6900 3100 6400 3100
+Wire Wire Line
+	6900 3200 6400 3200
+Wire Wire Line
+	6900 3300 6400 3300
+Wire Wire Line
+	6900 3400 6400 3400
+Wire Wire Line
+	6900 3500 6400 3500
+$Sheet
+S 6900 4150 900  550 
+U 5E97BA81
+F0 "pir" 50
+F1 "pir.sch" 50
+F2 "pir_input" O L 6900 4250 50 
+F3 "ldr_sense" O L 6900 4350 50 
+$EndSheet
+Wire Wire Line
+	6900 4350 6400 4350
+Wire Wire Line
+	6400 4250 6900 4250
 $EndSCHEMATC
