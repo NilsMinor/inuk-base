@@ -191,8 +191,6 @@ Text Label 7750 2150 0    50   ~ 0
 AIN1
 Text Label 7750 2250 0    50   ~ 0
 AIN2
-Text Label 7750 2350 0    50   ~ 0
-AIN3
 Text Label 7750 2450 0    50   ~ 0
 P0.06
 Text Label 7750 2550 0    50   ~ 0
@@ -279,14 +277,10 @@ Wire Wire Line
 	2500 1700 1650 1700
 Wire Wire Line
 	2500 1800 1650 1800
-Wire Wire Line
-	2500 1900 1650 1900
 Text Label 2000 1700 0    50   ~ 0
 AIN1
 Text Label 2000 1800 0    50   ~ 0
 AIN2
-Text Label 2000 1900 0    50   ~ 0
-AIN3
 Text Label 2000 1600 0    50   ~ 0
 AIN0
 Wire Wire Line
@@ -311,8 +305,6 @@ Text HLabel 1650 1700 0    50   Input ~ 0
 ain1
 Text HLabel 1650 1800 0    50   Input ~ 0
 ain2
-Text HLabel 1650 1900 0    50   Input ~ 0
-ain3
 Text HLabel 1650 2000 0    50   Input ~ 0
 ain4
 Text HLabel 1650 2100 0    50   Input ~ 0
@@ -610,4 +602,6 @@ F 3 "~" H 1950 2600 50  0001 C CNN
 	1    1750 2600
 	0    -1   -1   0   
 $EndComp
+Text Label 7750 2350 0    50   ~ 0
+P0.05
 $EndSCHEMATC

@@ -85,7 +85,7 @@ L Transistor_FET:DMG3406L Q2
 U 1 1 5E843DFF
 P 3750 3850
 F 0 "Q2" H 3954 3896 50  0000 L CNN
-F 1 "DMG3406L" H 3954 3805 50  0000 L CNN
+F 1 "DMG3406L" H 3370 3710 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 3950 3775 50  0001 L CIN
 F 3 "http://www.diodes.com/assets/Datasheets/DMG3406L.pdf" H 3750 3850 50  0001 L CNN
 	1    3750 3850
@@ -221,7 +221,7 @@ L Transistor_FET:DMG3406L Q3
 U 1 1 5E86C5B6
 P 3950 4700
 F 0 "Q3" H 4154 4746 50  0000 L CNN
-F 1 "DMG3406L" H 4154 4655 50  0000 L CNN
+F 1 "DMG3406L" H 3580 4550 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 4150 4625 50  0001 L CIN
 F 3 "http://www.diodes.com/assets/Datasheets/DMG3406L.pdf" H 3950 4700 50  0001 L CNN
 	1    3950 4700
@@ -272,7 +272,7 @@ L Transistor_FET:DMG3406L Q4
 U 1 1 5E86F937
 P 4150 5450
 F 0 "Q4" H 4354 5496 50  0000 L CNN
-F 1 "DMG3406L" H 4354 5405 50  0000 L CNN
+F 1 "DMG3406L" H 3760 5280 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 4350 5375 50  0001 L CIN
 F 3 "http://www.diodes.com/assets/Datasheets/DMG3406L.pdf" H 4150 5450 50  0001 L CNN
 	1    4150 5450
@@ -323,7 +323,7 @@ L Transistor_FET:DMG3406L Q5
 U 1 1 5E8728A0
 P 4350 6200
 F 0 "Q5" H 4554 6246 50  0000 L CNN
-F 1 "DMG3406L" H 4554 6155 50  0000 L CNN
+F 1 "DMG3406L" H 3980 6030 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 4550 6125 50  0001 L CIN
 F 3 "http://www.diodes.com/assets/Datasheets/DMG3406L.pdf" H 4350 6200 50  0001 L CNN
 	1    4350 6200
@@ -374,7 +374,7 @@ L Transistor_FET:DMG3406L Q1
 U 1 1 5E8788D9
 P 3550 3100
 F 0 "Q1" H 3754 3146 50  0000 L CNN
-F 1 "DMG3406L" H 3754 3055 50  0000 L CNN
+F 1 "DMG3406L" H 3180 2930 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 3750 3025 50  0001 L CIN
 F 3 "http://www.diodes.com/assets/Datasheets/DMG3406L.pdf" H 3550 3100 50  0001 L CNN
 	1    3550 3100
@@ -544,7 +544,7 @@ Wire Wire Line
 Wire Wire Line
 	4650 1800 4750 1800
 Text Notes 850  1550 0    50   ~ 0
-Setup I  - close jumpers for external mosfets\nSetup II - mosfets on board
+Setup I ) close jumpers for external mosfets\nSetup II) mosfets on board | default
 $Comp
 L Device:Jumper_NO_Small JP2
 U 1 1 5E8E884F

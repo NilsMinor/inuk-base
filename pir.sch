@@ -4703,11 +4703,11 @@ Wire Wire Line
 Wire Wire Line
 	5750 2250 5400 2250
 Connection ~ 5400 2250
-Text Notes 3150 2450 0    50   ~ 0
-Setup I)  AM312 direct connection
-Text Notes 3150 2300 0    50   ~ 10
+Text Notes 2890 2810 0    50   ~ 0
+Setup I)  AM312 direct connection | default
+Text Notes 2890 2660 0    50   ~ 10
 Note:
-Text Notes 3150 2550 0    50   ~ 0
+Text Notes 2890 2910 0    50   ~ 0
 Setup II) Transistor connection
 $Comp
 L Transistor_BJT:BC817 Q6
@@ -4770,7 +4770,7 @@ Wire Wire Line
 	4950 3450 4950 3650
 Wire Wire Line
 	4800 3250 4550 3250
-Text Notes 6050 2600 0    50   ~ 10
+Text Notes 6070 2670 0    50   ~ 10
 AM312\n
 $Comp
 L Connector:Conn_01x03_Male J6
