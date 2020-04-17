@@ -648,4 +648,8 @@ Wire Wire Line
 Connection ~ 4650 1350
 Wire Wire Line
 	4650 1350 4650 1600
+Text Notes 7325 7510 0    79   ~ 16
+Light control
+Text Notes 7050 6700 0    50   ~ 0
+connection for passive light shield
 $EndSCHEMATC

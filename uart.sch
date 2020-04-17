@@ -140,4 +140,8 @@ Text Label 5880 3390 0    50   ~ 0
 rts
 Text Label 5880 3490 0    50   ~ 0
 cts
+Text Notes 7330 7510 0    79   ~ 16
+UART interface
+Text Notes 7050 6650 0    50   ~ 0
+uart interface
 $EndSCHEMATC

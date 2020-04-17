@@ -6930,4 +6930,8 @@ $EndComp
 Wire Wire Line
 	5600 6370 5950 6370
 NoConn ~ 5950 6370
+Text Notes 7365 7515 0    79   ~ 16
+Power 
+Text Notes 7050 6700 0    50   ~ 0
+battery charging and system power
 $EndSCHEMATC

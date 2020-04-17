@@ -42,45 +42,45 @@ Wire Wire Line
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 5E7D5F82
-P 9600 1800
-F 0 "H4" H 9700 1846 50  0000 L CNN
-F 1 "MountingHole" H 9700 1755 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 9700 1709 50  0001 L CNN
-F 3 "~" H 9600 1800 50  0001 C CNN
-	1    9600 1800
+P 8400 3300
+F 0 "H4" H 8500 3346 50  0000 L CNN
+F 1 "MountingHole" H 8500 3255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 8500 3209 50  0001 L CNN
+F 3 "~" H 8400 3300 50  0001 C CNN
+	1    8400 3300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 5E7D615B
-P 9600 1600
-F 0 "H3" H 9700 1646 50  0000 L CNN
-F 1 "MountingHole" H 9700 1555 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 9700 1509 50  0001 L CNN
-F 3 "~" H 9600 1600 50  0001 C CNN
-	1    9600 1600
+P 8400 3100
+F 0 "H3" H 8500 3146 50  0000 L CNN
+F 1 "MountingHole" H 8500 3055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 8500 3009 50  0001 L CNN
+F 3 "~" H 8400 3100 50  0001 C CNN
+	1    8400 3100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 5E7D677D
-P 9600 1400
-F 0 "H2" H 9700 1446 50  0000 L CNN
-F 1 "MountingHole" H 9700 1355 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 9700 1309 50  0001 L CNN
-F 3 "~" H 9600 1400 50  0001 C CNN
-	1    9600 1400
+P 8400 2900
+F 0 "H2" H 8500 2946 50  0000 L CNN
+F 1 "MountingHole" H 8500 2855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 8500 2809 50  0001 L CNN
+F 3 "~" H 8400 2900 50  0001 C CNN
+	1    8400 2900
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5E7D6AF7
-P 9600 1200
-F 0 "H1" H 9700 1246 50  0000 L CNN
-F 1 "MountingHole" H 9700 1155 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 9700 1109 50  0001 L CNN
-F 3 "~" H 9600 1200 50  0001 C CNN
-	1    9600 1200
+P 8400 2700
+F 0 "H1" H 8500 2746 50  0000 L CNN
+F 1 "MountingHole" H 8500 2655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 8500 2609 50  0001 L CNN
+F 3 "~" H 8400 2700 50  0001 C CNN
+	1    8400 2700
 	1    0    0    -1  
 $EndComp
 $Sheet
@@ -150,12 +150,16 @@ Wire Wire Line
 $Comp
 L Custom:Logo_NM U4
 U 1 1 5EB7B6B6
-P 9600 2090
-F 0 "U4" H 9500 2140 50  0001 C CNN
-F 1 "Logo_NM" H 9695 2124 50  0000 L CNN
-F 2 "Custom:Logo_NM" H 9644 2020 50  0001 C CNN
-F 3 "" H 9540 2076 50  0001 C CNN
-	1    9600 2090
+P 8400 3590
+F 0 "U4" H 8300 3640 50  0001 C CNN
+F 1 "Logo_NM" H 8495 3624 50  0000 L CNN
+F 2 "Custom:Logo_NM" H 8444 3520 50  0001 C CNN
+F 3 "" H 8340 3576 50  0001 C CNN
+	1    8400 3590
 	1    0    0    -1  
 $EndComp
+Text Notes 7350 7510 0    79   ~ 16
+Main sheet
+Text Notes 7000 6650 0    50   ~ 0
+main schematic sheet
 $EndSCHEMATC

@@ -4869,4 +4869,8 @@ Wire Wire Line
 Connection ~ 5450 5350
 Text HLabel 4600 5350 0    50   Output ~ 0
 ldr_sense
+Text Notes 7350 7510 0    79   ~ 16
+PIR sensor
+Text Notes 7050 6700 0    50   ~ 0
+sensor sheet
 $EndSCHEMATC

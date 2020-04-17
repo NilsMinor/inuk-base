@@ -326,21 +326,21 @@ Wire Wire Line
 Wire Wire Line
 	2500 3300 1750 3300
 Wire Wire Line
-	2500 3500 1750 3500
-Wire Wire Line
-	2500 3600 1750 3600
-Wire Wire Line
-	2500 3700 1750 3700
-Wire Wire Line
-	2500 3800 1750 3800
-Wire Wire Line
-	2500 3900 1750 3900
-Wire Wire Line
-	2500 4000 1750 4000
-Wire Wire Line
-	2500 4100 1750 4100
-Wire Wire Line
 	2500 4200 1750 4200
+Wire Wire Line
+	2500 4300 1750 4300
+Wire Wire Line
+	2500 4400 1750 4400
+Wire Wire Line
+	2500 4500 1750 4500
+Wire Wire Line
+	2500 4600 1750 4600
+Wire Wire Line
+	2500 4700 1750 4700
+Wire Wire Line
+	2500 4800 1750 4800
+Wire Wire Line
+	3750 4800 3000 4800
 Text Label 3600 1650 0    50   ~ 0
 NFC1
 Text Label 3600 1750 0    50   ~ 0
@@ -357,26 +357,26 @@ Text Label 2000 3200 0    50   ~ 0
 P0.15
 Text Label 2000 3300 0    50   ~ 0
 P0.16
-Text Label 2000 3600 0    50   ~ 0
+Text Label 2000 4300 0    50   ~ 0
 P0.20
-Text Label 2000 3700 0    50   ~ 0
+Text Label 2000 4400 0    50   ~ 0
 P0.22
-Text Label 2000 3800 0    50   ~ 0
+Text Label 2000 4500 0    50   ~ 0
 P0.23
-Text Label 2000 3900 0    50   ~ 0
+Text Label 2000 4600 0    50   ~ 0
 P0.24
-Text Label 2000 4000 0    50   ~ 0
+Text Label 2000 4700 0    50   ~ 0
 P0.25
-Text Label 2000 4100 0    50   ~ 0
+Text Label 2000 4800 0    50   ~ 0
 P0.26
-Text Label 2000 4200 0    50   ~ 0
+Text Label 3350 4800 0    50   ~ 0
 P0.27
-Text Label 2000 3500 0    50   ~ 0
+Text Label 2000 4200 0    50   ~ 0
 P0.19
-Text Label 2000 3400 0    50   ~ 0
+Text Label 2000 4100 0    50   ~ 0
 P0.17
 Wire Wire Line
-	2500 3400 1750 3400
+	2500 4100 1750 4100
 Text HLabel 1750 2800 0    50   Output ~ 0
 lio1
 Text HLabel 1750 2900 0    50   Output ~ 0
@@ -722,8 +722,8 @@ F 3 "" H 3500 1250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	2650 3600 3000 3600
-Text Label 2800 3600 0    50   ~ 0
+	3000 4500 3750 4500
+Text Label 3350 4500 0    50   ~ 0
 DCC
 Wire Wire Line
 	6200 2200 6200 1800
@@ -784,4 +784,91 @@ Wire Wire Line
 	4100 1650 3500 1650
 Connection ~ 3500 1650
 Connection ~ 3500 1750
+Text Notes 7330 7510 0    79   ~ 16
+CPU
+Text Notes 7000 6650 0    50   ~ 0
+NRF52 cpu module
+$Comp
+L power:GND #PWR0138
+U 1 1 5E9CE3E9
+P 3250 4900
+F 0 "#PWR0138" H 3250 4650 50  0001 C CNN
+F 1 "GND" H 3255 4727 50  0000 C CNN
+F 2 "" H 3250 4900 50  0001 C CNN
+F 3 "" H 3250 4900 50  0001 C CNN
+	1    3250 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 3700 3350 3750
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5E9D3C0C
+P 3500 4000
+AR Path="/5E9D3C0C" Ref="#PWR?"  Part="1" 
+AR Path="/5E59E010/5E9D3C0C" Ref="#PWR0139"  Part="1" 
+F 0 "#PWR0139" H 3500 3850 50  0001 C CNN
+F 1 "+3.3V" H 3515 4173 50  0000 C CNN
+F 2 "" H 3500 4000 50  0001 C CNN
+F 3 "" H 3500 4000 50  0001 C CNN
+	1    3500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR?
+U 1 1 5E9D9A21
+P 3250 4000
+AR Path="/5E5BC499/5E9D9A21" Ref="#PWR?"  Part="1" 
+AR Path="/5E59E010/5E9D9A21" Ref="#PWR0140"  Part="1" 
+F 0 "#PWR0140" H 3250 3850 50  0001 C CNN
+F 1 "+BATT" H 3265 4173 50  0000 C CNN
+F 2 "" H 3250 4000 50  0001 C CNN
+F 3 "" H 3250 4000 50  0001 C CNN
+	1    3250 4000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Male J9
+U 1 1 5E9F0561
+P 1550 4400
+F 0 "J9" H 1658 4789 50  0000 C CNN
+F 1 "Conn_01x08_Male" H 1658 4790 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical_SMD_Pin1Left" H 1550 4400 50  0001 C CNN
+F 3 "~" H 1550 4400 50  0001 C CNN
+	1    1550 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 4900 3250 4700
+Wire Wire Line
+	3250 4700 3000 4700
+Wire Wire Line
+	3000 4600 3250 4600
+Wire Wire Line
+	3250 4600 3250 4700
+Connection ~ 3250 4700
+Wire Wire Line
+	3250 4000 3250 4100
+Wire Wire Line
+	3250 4100 3000 4100
+$Comp
+L Connector:Conn_01x08_Male J10
+U 1 1 5EA01F00
+P 2800 4400
+F 0 "J10" H 2908 4789 50  0000 C CNN
+F 1 "Conn_01x08_Male" H 2908 4790 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical_SMD_Pin1Left" H 2800 4400 50  0001 C CNN
+F 3 "~" H 2800 4400 50  0001 C CNN
+	1    2800 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 4200 3500 4200
+Wire Wire Line
+	3000 4300 3500 4300
+Wire Wire Line
+	3500 4000 3500 4200
+Connection ~ 3500 4200
+Wire Wire Line
+	3500 4200 3500 4300
 $EndSCHEMATC
