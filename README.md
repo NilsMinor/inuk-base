@@ -10,6 +10,6 @@ I just released the board to version 1.0 and it will get in production next week
 [<img src="images/screenshot.png">](https://stackrate.de/viewer?stackId=Oa3Chhu8g)
 
 ##View in 3D
-![3D Image 1](images/inuk-base-1.jpg)
-![3D Image 2](images/inuk-base-2.jpg)
-![3D Image 3](images/inuk-base-3.jpg)
+![3D Image 1](images/inuk-base-1.jpg?raw=true)
+![3D Image 2](images/inuk-base-2.jpg?raw=true)
+![3D Image 3](images/inuk-base-3.jpg?raw=true)
