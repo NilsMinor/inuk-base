@@ -8,7 +8,7 @@ I just released the board to version 1.0 and it will get in production next week
 ###### Click on the image below to see the gerber files
 
 [<img src="images/screenshot.png">](https://stackrate.de/viewer?stackId=Oa3Chhu8g)
-
+![Screenshot](images/screenshot.png)
 ##View in 3D
 ![3D Image 1](images/inuk-base-1.jpg?raw=true)
 ![3D Image 2](images/inuk-base-2.jpg?raw=true)
