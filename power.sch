@@ -76,6 +76,8 @@ F 0 "F1" V 9053 1550 50  0000 C CNN
 F 1 "Fuse" V 9144 1550 50  0000 C CNN
 F 2 "Fuse:Fuse_1206_3216Metric" V 9180 1550 50  0001 C CNN
 F 3 "~" H 9250 1550 50  0001 C CNN
+F 4 "0466002.NRHF" H 9250 1550 50  0001 C CNN "MPN"
+F 5 "C3105" H 9250 1550 50  0001 C CNN "LCSC"
 	1    9250 1550
 	0    1    1    0   
 $EndComp
@@ -122,6 +124,8 @@ F 0 "R5" H 2620 1946 50  0000 L CNN
 F 1 "806k" H 2620 1855 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2480 1900 50  0001 C CNN
 F 3 "~" H 2550 1900 50  0001 C CNN
+F 4 "0805W8F8063T5E" H 2550 1900 50  0001 C CNN "MPN"
+F 5 "C63494" H 2550 1900 50  0001 C CNN "LCSC"
 	1    2550 1900
 	1    0    0    -1  
 $EndComp
@@ -133,6 +137,8 @@ F 0 "C1" H 2115 2446 50  0000 L CNN
 F 1 "1nF" H 2115 2355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2038 2250 50  0001 C CNN
 F 3 "~" H 2000 2400 50  0001 C CNN
+F 4 "CL21B102KBCNNNC" H 2000 2400 50  0001 C CNN "MPN"
+F 5 "C46653" H 2000 2400 50  0001 C CNN "LCSC"
 	1    2000 2400
 	1    0    0    -1  
 $EndComp
@@ -155,6 +161,8 @@ F 0 "R6" H 2620 2446 50  0000 L CNN
 F 1 "2M" H 2620 2355 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2480 2400 50  0001 C CNN
 F 3 "~" H 2550 2400 50  0001 C CNN
+F 4 "0805W8F2004T5E" H 2550 2400 50  0001 C CNN "MPN"
+F 5 "C26112" H 2550 2400 50  0001 C CNN "LCSC"
 	1    2550 2400
 	1    0    0    -1  
 $EndComp
@@ -903,9 +911,9 @@ F 3 "" H 6450 4320 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 6450 4470
-Text Notes 4750 5620 0    50   ~ 0
-Place jumper or use switch to enable the system
-Text Notes 4750 5470 0    50   ~ 10
+Text Notes 4750 5550 0    50   ~ 0
+Place jumper or use switch to enable the system.\nThe LDO is disabled by default
+Text Notes 4750 5320 0    50   ~ 10
 Note:
 Wire Wire Line
 	4850 6270 5200 6270
@@ -947,6 +955,8 @@ F 0 "R9" H 5450 4820 50  0000 C CNN
 F 1 "100k" H 5500 4720 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5280 4770 50  0001 C CNN
 F 3 "~" H 5350 4770 50  0001 C CNN
+F 4 "0805W8F1003T5E" H 5350 4770 50  0001 C CNN "MPN"
+F 5 "C17407" H 5350 4770 50  0001 C CNN "LCSC"
 	1    5350 4770
 	1    0    0    -1  
 $EndComp
@@ -978,6 +988,8 @@ F 0 "R7" H 2370 4866 50  0000 L CNN
 F 1 "2M" H 2370 4775 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2230 4820 50  0001 C CNN
 F 3 "~" H 2300 4820 50  0001 C CNN
+F 4 "0805W8F2004T5E" H 2300 4820 50  0001 C CNN "MPN"
+F 5 "C26112" H 2300 4820 50  0001 C CNN "LCSC"
 	1    2300 4820
 	1    0    0    -1  
 $EndComp
@@ -1003,17 +1015,6 @@ Wire Wire Line
 Wire Wire Line
 	2300 4970 2300 5070
 $Comp
-L Device:R R8
-U 1 1 5E817DA9
-P 2300 5320
-F 0 "R8" H 2370 5366 50  0000 L CNN
-F 1 "2M" H 2370 5275 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2230 5320 50  0001 C CNN
-F 3 "~" H 2300 5320 50  0001 C CNN
-	1    2300 5320
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0115
 U 1 1 5E817DA3
 P 2300 5570
@@ -1032,6 +1033,8 @@ F 0 "C2" H 1865 5366 50  0000 L CNN
 F 1 "1nF" H 1865 5275 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1788 5170 50  0001 C CNN
 F 3 "~" H 1750 5320 50  0001 C CNN
+F 4 "CL21B102KBCNNNC" H 1750 5320 50  0001 C CNN "MPN"
+F 5 "C46653" H 1750 5320 50  0001 C CNN "LCSC"
 	1    1750 5320
 	1    0    0    -1  
 $EndComp
@@ -6744,8 +6747,6 @@ $EndBitmap
 Connection ~ 4700 4470
 Wire Wire Line
 	4700 4470 3950 4470
-Text Notes 4150 3970 0    50   ~ 0
-dcdc design based on https://learn.adafruit.com/assets/52793 
 Wire Wire Line
 	4700 4470 4700 4520
 Wire Wire Line
@@ -6769,6 +6770,8 @@ F 0 "C3" H 4815 4716 50  0000 L CNN
 F 1 "10uF" H 4815 4625 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 4738 4520 50  0001 C CNN
 F 3 "~" H 4700 4670 50  0001 C CNN
+F 4 "CL31A106KBHNNNE" H 4700 4670 50  0001 C CNN "MPN"
+F 5 "C13585" H 4700 4670 50  0001 C CNN "LCSC"
 	1    4700 4670
 	1    0    0    -1  
 $EndComp
@@ -6780,6 +6783,8 @@ F 0 "C4" H 6565 4666 50  0000 L CNN
 F 1 "10uF" H 6565 4575 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 6488 4470 50  0001 C CNN
 F 3 "~" H 6450 4620 50  0001 C CNN
+F 4 "CL31A106KBHNNNE" H 6450 4620 50  0001 C CNN "MPN"
+F 5 "C13585" H 6450 4620 50  0001 C CNN "LCSC"
 	1    6450 4620
 	1    0    0    -1  
 $EndComp
@@ -6804,11 +6809,13 @@ F 0 "U3" H 5850 4912 50  0000 C CNN
 F 1 "AP2112K-3.3" H 5850 4821 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 5850 4895 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/AP2112.pdf" H 5850 4670 50  0001 C CNN
+F 4 "AP2112K-3.3TRG1" H 5850 4570 50  0001 C CNN "MPN"
+F 5 "C51118" H 5850 4570 50  0001 C CNN "LCSC"
 	1    5850 4570
 	1    0    0    -1  
 $EndComp
 Text Notes 1200 3970 0    50   ~ 0
-Use a solar panel with output voltage between 4V to 8V
+Use a solar panel with output voltage of 6V
 Text Notes 1200 3820 0    50   ~ 10
 Note:
 Wire Wire Line
@@ -6818,9 +6825,11 @@ L Diode:SM4007 D1
 U 1 1 5E7AE53E
 P 1900 4470
 F 0 "D1" H 1900 4254 50  0000 C CNN
-F 1 "SM4007" H 1900 4345 50  0000 C CNN
-F 2 "Diode_SMD:D_MELF" H 1900 4346 50  0001 C CNN
+F 1 "B230-13-F" H 1900 4345 50  0000 C CNN
+F 2 "Diode_SMD:D_SMB" H 1900 4346 50  0001 C CNN
 F 3 "http://cdn-reichelt.de/documents/datenblatt/A400/SMD1N400%23DIO.pdf" H 1900 4470 50  0001 C CNN
+F 4 "B230-13-F" H 1900 4470 50  0001 C CNN "MPN"
+F 5 " C110482" H 1900 4470 50  0001 C CNN "LCSC"
 	1    1900 4470
 	-1   0    0    1   
 $EndComp
@@ -6934,4 +6943,21 @@ Text Notes 7365 7515 0    79   ~ 16
 Power 
 Text Notes 7050 6700 0    50   ~ 0
 battery charging and system power
+Text Notes 9850 1870 0    50   ~ 0
+To connect an external lipo
+$Comp
+L Device:R R8
+U 1 1 5EA0530B
+P 2300 5320
+F 0 "R8" H 2370 5366 50  0000 L CNN
+F 1 "806k" H 2370 5275 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2230 5320 50  0001 C CNN
+F 3 "~" H 2300 5320 50  0001 C CNN
+F 4 "0805W8F8063T5E" H 2300 5320 50  0001 C CNN "MPN"
+F 5 "C63494" H 2300 5320 50  0001 C CNN "LCSC"
+	1    2300 5320
+	1    0    0    -1  
+$EndComp
+Text Notes 10590 7640 0    50   ~ 0
+1.0
 $EndSCHEMATC

@@ -42,23 +42,23 @@ Wire Wire Line
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 5E7D5F82
-P 8400 3300
-F 0 "H4" H 8500 3346 50  0000 L CNN
-F 1 "MountingHole" H 8500 3255 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 8500 3209 50  0001 L CNN
-F 3 "~" H 8400 3300 50  0001 C CNN
-	1    8400 3300
+P 8400 3330
+F 0 "H4" H 8500 3376 50  0000 L CNN
+F 1 "MountingHole" H 8500 3285 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 8500 3239 50  0001 L CNN
+F 3 "~" H 8400 3330 50  0001 C CNN
+	1    8400 3330
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 5E7D615B
-P 8400 3100
-F 0 "H3" H 8500 3146 50  0000 L CNN
-F 1 "MountingHole" H 8500 3055 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 8500 3009 50  0001 L CNN
-F 3 "~" H 8400 3100 50  0001 C CNN
-	1    8400 3100
+P 8400 3110
+F 0 "H3" H 8500 3156 50  0000 L CNN
+F 1 "MountingHole" H 8500 3065 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 8500 3019 50  0001 L CNN
+F 3 "~" H 8400 3110 50  0001 C CNN
+	1    8400 3110
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -113,17 +113,13 @@ F5 "uart_rx" I R 6060 2870 50
 F6 "ain0" I L 4910 2770 50 
 F7 "ain1" I L 4910 2870 50 
 F8 "ain2" I R 6060 4070 50 
-F9 "ain3" I R 6060 4820 50 
-F10 "ain4" I L 4910 4620 50 
-F11 "ain5" I L 4910 4720 50 
-F12 "ain6" I L 4910 4820 50 
-F13 "ain7" I L 4910 4920 50 
-F14 "lio1" O R 6060 3570 50 
-F15 "lio2" O R 6060 3670 50 
-F16 "lio3" O R 6060 3770 50 
-F17 "lio4" O R 6060 3870 50 
-F18 "lio5" O R 6060 3970 50 
-F19 "pir_input" I R 6060 4720 50 
+F9 "ain4" I R 6060 4820 50 
+F10 "lio1" O R 6060 3570 50 
+F11 "lio2" O R 6060 3670 50 
+F12 "lio3" O R 6060 3770 50 
+F13 "lio4" O R 6060 3870 50 
+F14 "lio5" O R 6060 3970 50 
+F15 "pir_input" I R 6060 4720 50 
 $EndSheet
 Wire Wire Line
 	6560 3570 6060 3570
