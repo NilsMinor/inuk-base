@@ -5,6 +5,14 @@ The board is powered by one 18650 rechargeable lipo and charged by an TP4056 mod
 
 I just released the board to version 1.0 and it will get in production next week (20.04.2020).
 
+#### Pin description
+
+| Pin   |  Function  |        Note |
+| ----- | :--------: | ----------: |
+| P0.26 |   LED D2   | high active |
+| P0.27 |   LED D3   | high active |
+| P0.25 | BUTTON SW2 |  low active |
+
 #### Software
 
 The inuk-base board is equipped with an E73-2G4M04S1B module that contains an nrf52832 SoC from nordic semiconductor. The nrf52832 bluetooth SoC comes with cortex-m4, 64K RAM and 512K ROM.
